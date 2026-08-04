@@ -8,7 +8,7 @@
     <title> Red Dirt Avian Diagnostics</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/mobile.css">
-
+    <link rel="stylesheet" href="css/carousel.css">
 </head>
 <body>
 
@@ -79,23 +79,48 @@
             </ul>
         </nav>
     </header>
-<section class="hero">
+<section class="carousel">
 
-    <h1>PCR Based Avian DNA Testing </h1>
+    <div class="carousel-track">
 
-    <p>
+        <div class="slide active">
+            <img src="images/carousel/Welcome2.png" alt="Slide 1">
+        </div>
 
-        Accurate and reliable DNA sexing for you flock made easy! Offering services for poultry, waterfowl, game birds, and various exotics.
+        <div class="slide">
+            <img src="images/carousel/oops.png" alt="Slide 2">
+        </div>
 
-    </p>
+        <div class="slide">
+            <img src="images/carousel/oops.png" alt="Slide 3">
+        </div>
+
+        <div class="slide">
+            <img src="images/carousel/oops.png" alt="Slide 4">
+        </div>
+
+    </div>
+
+    <button class="carousel-btn prev">&#10094;</button>
+    <button class="carousel-btn next">&#10095;</button>
+
+    <div class="carousel-indicators">
+
+        <span class="indicator active"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+
+    </div>
 
 </section>
 <div class="welcome">
+    
 
 <h1>Welcome to the Red Dirt Avian Diagnostic Lab!</h1>
 
 <h2>
- Thank You For Choosing To Visit Us!
+ Thank you for choosing to visit us!
 </h2>
 <p>
     If you are new to avian DNA sexing please visit the about page to learn all about the process and instructionals on DNA collection
@@ -103,10 +128,12 @@
 <p>
     You are more than welcome to contact us with more questions and inquiries
 </p>
-
 </div>
-<div>
-    blog
+<div class="articles">
+    <p>
+        placeholder
+
+    </p>
 
 </div>
 <footer>
@@ -119,5 +146,6 @@
 
 </footer>
 <script src="js/main.js"></script>
+<script src="js/carousel.js"></script>
 </body>
 </html>

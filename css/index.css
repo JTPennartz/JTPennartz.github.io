@@ -16,13 +16,16 @@
 body{
 
     font-family:Arial, Helvetica, sans-serif;
-
-    background:#ffffff;
-
+    background-color: #ffffff;
     color:#2f2f2f;
-
     line-height:1.6;
 
+}
+
+.container{
+    width:92%;
+    max-width: 1600px;
+    margin:0 auto;
 }
 
 /* ---------- LINKS ---------- */
@@ -89,36 +92,6 @@ header {
     align-items:center;
     justify-content:flex-end;
     gap:25px;
-}
-
-/* ---------- HERO ---------- */
-
-.hero{
-
-    text-align:center;
-
-    padding:120px 10%;
-
-    background:white;
-
-}
-
-.hero h2{
-
-    font-size:3rem;
-
-    margin-bottom:20px;
-
-}
-
-.hero p{
-
-    max-width:700px;
-
-    margin:auto;
-
-    font-size:1.2rem;
-
 }
 
 /* ---------- BUTTON ---------- */
@@ -191,17 +164,17 @@ header {
 
 .welcome{
 
-    background-image: linear-gradient(to bottom right, #bbbbbb, #ffffff, #bbbbbb);
+    background-color: white;
     margin: auto;
-    max-width: 1000px;
-    padding:80px 10%;
-    border-radius: 5px;
+    width: 100%;
+    max-width: 1600px;
+    padding:80px 0;
     text-align: center;
 }
 
 .welcome h1{
     margin-bottom:30px;
-
+    color: #000000
 }
 .welcome h2{
     margin-bottom: 20px;
@@ -216,11 +189,14 @@ header {
 
 }
 
-.how-it-works li{
+/* ---------- ARTICLES ---------- */
 
-    margin-bottom:15px;
-
+.articles{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
 
 /* ---------- FOOTER ---------- */
 
