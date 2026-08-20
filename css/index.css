@@ -193,11 +193,47 @@ header {
 
 .articles{
     width: 90%;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
+    padding: 15px;
 }
-
-
+.articles-button{
+    height: 40px;
+    width: auto;
+    display: block;
+    transition: transform 0.25s ease,
+    filter 0.25s ease;
+    margin-left: 45px;
+}
+.articles-button:hover{
+    transform:scale(1.08);
+    filter:
+        brightness(0.5)
+        drop-shadow(0 4px 8px rgba(0,0,0,0.25));
+}
+.article-section{
+    border: #535353;
+    border-style: ridge;
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+    height: 240px;
+}
+.article-photo{
+    height: 200px;
+    width: auto;
+    border-style: outset;
+    border-radius: 15px;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.25));
+    float: left;
+}
+.article-section h1{
+    padding-left:320px;
+    font-size: 30px;
+}
+.article-section p{
+    padding-left: 320px;
+}
 /* ---------- FOOTER ---------- */
 
 footer{
